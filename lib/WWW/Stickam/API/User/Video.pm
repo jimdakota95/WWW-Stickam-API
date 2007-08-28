@@ -19,12 +19,12 @@ sub uri {
 
 =head1 NAME
 
-WWW::Stickam::API::User::Vido - User/Vido API
+WWW::Stickam::API::User::Video - User/Video API
 
 =head1 SYNOPSYS
 
  my $api = WWW::Stickam::API->new();
- if( $api->call('User/Vido' , { user_name => 'stickam' , page => 1 , per_page => 2 } ) ) {
+ if( $api->call('User/Video' , { user_name => 'stickam' , page => 1 , per_page => 2 } ) ) {
     print Dumper $api->get();
     print $api->get_XML();
     print $api->get_JSON();

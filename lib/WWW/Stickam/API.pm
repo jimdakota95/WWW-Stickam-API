@@ -8,7 +8,7 @@ use UNIVERSAL::require;
 use JSON::XS ;
 use Time::HiRes;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 __PACKAGE__->mk_accessors(qw/data content error tv_interval/);
 
